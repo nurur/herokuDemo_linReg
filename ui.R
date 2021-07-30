@@ -11,7 +11,7 @@ shinyUI(pageWithSidebar(
   # Sidebar with controls to select a dataset and specify the number
   # of observations to view
   sidebarPanel(
-    sliderInput("range", "Choose a Range:", 
+    sliderInput("range", "Choose a Range of x:", 
                  min=1, max=25, value=c(10,15))
   ),
 
